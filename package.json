@@ -1,0 +1,35 @@
+{
+  "name": "Inmediate-solidity-smart-contracts",
+  "version": "1.0.0",
+  "description": "Token contracts for Inmediate",
+  "author": "Zerion inbox@zerion.io",
+  "scripts": {
+    "test": "scripts/test.sh",
+    "console": "truffle console",
+    "compile": "truffle compile"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeriontech/inmediate-token-smart-contracts.git"
+  },
+  "engines": {
+    "yarn": "1.5.1"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "chai": "4.1.2",
+    "chai-as-promised": "7.1. 1",
+    "chai-bignumber": "2.0.2",
+    "ganache-cli": "6.1.5",
+    "solc": "0.4.24",
+    "solidity-coverage": "0.5.5",
+    "solium": "1.1.7",
+    "truffle": "4.1.13"
+  }
+}
